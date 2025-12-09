@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mister096.github.io/Leha2/",   // ← тоже поменяй, если репозиторий называется иначе
+  "homepage": "https://mister096.github.io/ArendaPrime/",   // ← тоже поменяй, если репозиторий называется иначе
   "scripts": {
     "dev": "vite",
     "build": "vite build",
