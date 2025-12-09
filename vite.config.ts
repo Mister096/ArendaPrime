@@ -4,14 +4,10 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/ArendaPrime/',  // ← Это ключевой фикс! Для GitHub Pages используй имя репозитория
+  base: '/ArendaPrime/', // Обязательно со слешами в начале и конце
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'),  // Если у тебя есть src/ — это поможет с импортами
+      '@': path.resolve(__dirname, './src'),
     },
-  },
-  server: {
-    port: 3000,
-    host: '0.0.0.0',  // Для локального dev
   },
 })
